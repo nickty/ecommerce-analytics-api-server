@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB connection
-const mongoUri = process.env.MONGODB_URI || 'mongodb://localhost:27017/ecommerce-analytics';
+const mongoUri = process.env.MONGODB_URI || 'mongodb+srv://mizanksamail:Nick126721@cluster0.1fqjpf8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 let db;
 
 // Kafka configuration for real-time updates
